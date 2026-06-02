@@ -1,0 +1,80 @@
+Angry Cubes - Physics Based ARVR Project
+
+## Overview
+
+This project is an Augmented Reality (AR) / Virtual Reality (VR) application developed to provide an immersive and interactive user experience. The application leverages modern AR/VR technologies to blend virtual content with the real world and create engaging digital environments.
+
+## Features
+
+* Interactive 3D environment
+* Real-time object rendering
+* User-friendly interface
+* Immersive AR/VR experience
+* Motion and gesture-based interactions
+
+
+## Technologies Used
+
+* Unity 3D
+* C#
+* AR Foundation / Vuforia 
+* Android Studio
+* Visual Studio
+
+## Project Structure
+
+Project/
+├── Assets/
+├── Scripts/
+├── Models/
+├── Materials/
+├── Scenes/
+├── Prefabs/
+└── Documentation/
+```
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Open the project in Unity.
+
+3. Install required dependencies and packages.
+
+4. Build and run the application on the target device.
+
+## Usage
+
+1. Launch the application.
+2. Follow the on-screen instructions.
+3. Interact with virtual objects using supported controls and gestures.
+4. Explore the AR/VR environment.
+
+## Applications
+
+* Education and Training
+* Gaming and Entertainment
+* Virtual Tours
+* Healthcare Simulations
+* Industrial Training
+
+## Future Enhancements
+
+* Multi-user collaboration
+* Advanced hand tracking
+* AI-powered interactions
+* Improved graphics and performance
+* Additional AR/VR scenarios
+
+## Contributors
+
+* Snehal Bhosle
+* Shabnam Shaikh
+
+## License
+
+This project is licensed under the MIT License.
