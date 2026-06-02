@@ -1,0 +1,1850 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 3998 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/ar/AR_Project_clg
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64593
+Successfully changed project path to: F:/ar/AR_Project_clg
+F:/ar/AR_Project_clg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4508]  Target information:
+
+Player connection [4508]  * "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 1482017649 [EditorId] 1482017649 [Version] 1048832 [Id] WindowsEditor(7,QueenBee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4508] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4508] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 1751.25 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/ar/AR_Project_clg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     1999 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034345 seconds.
+- Loaded All Assemblies, in  1.186 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1489 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.356 seconds
+Domain Reload Profiling: 3540ms
+	BeginReloadAssembly (531ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (162ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (348ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2359ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1707ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.045 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  8.145 seconds
+Domain Reload Profiling: 18085ms
+	BeginReloadAssembly (2518ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (199ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (379ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (1870ms)
+	LoadAllAssembliesAndSetupDomain (5428ms)
+		LoadAssemblies (5058ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (840ms)
+			TypeCache.Refresh (747ms)
+				TypeCache.ScanAssembly (689ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (8149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (6870ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.73 seconds
+Refreshing native plugins compatible for Editor in 304.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.8 MB). Loaded Objects now: 6829.
+Memory consumption went from 236.5 MB to 234.7 MB.
+Total: 48.171200 ms (FindLiveObjects: 3.830800 ms CreateObjectMapping: 1.534700 ms MarkObjects: 36.710300 ms  DeleteObjects: 6.090800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.099 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 27.330 seconds
+Domain Reload Profiling: 34402ms
+	BeginReloadAssembly (1303ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (63ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (386ms)
+	RebuildCommonClasses (142ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (281ms)
+	LoadAllAssembliesAndSetupDomain (5307ms)
+		LoadAssemblies (5582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (123ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (27332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			SetLoadedEditorAssemblies (29ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (394ms)
+			ProcessInitializeOnLoadAttributes (1749ms)
+			ProcessInitializeOnLoadMethodAttributes (298ms)
+			AfterProcessingInitializeOnLoad (34ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (65ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 291.64 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.9 MB). Loaded Objects now: 6898.
+Memory consumption went from 211.7 MB to 209.8 MB.
+Total: 16.873200 ms (FindLiveObjects: 1.129300 ms CreateObjectMapping: 1.213300 ms MarkObjects: 12.396100 ms  DeleteObjects: 2.131300 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Cli.cs: f278fa05dc0a28f05b8e56cf7a587c31 -> d287e08b50f2cb135aa4d7f8e01b7ef9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARCoreAnchorSubsystem.cs: 8fd89380878aa630c35614c13d4b70e4 -> 
+  custom:scripting/monoscript/fileName/ImageConversionJobs.cs: 5daa4e6aadb43a7b9057d64b0ba5d568 -> 
+  custom:scripting/monoscript/fileName/HashCodeUtil.cs: 3ac2012e517078f051611cc23e19a706 -> ee7a4f9a9650d3c7f74eced4bfed8831
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArSession.cs: dc9c4d04514fe088f4acb3a600cfa61f -> 
+  custom:scripting/monoscript/fileName/ManagedReferenceImage.cs: 3f74dd150e48d66b5dd8288f3c3e1c34 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageTrackingSubsystem.cs: 39d814b8b12f50336c43db8ce6f8ee94 -> 
+  custom:scripting/monoscript/fileName/ArCameraConfigFilter.cs: b80d5ef788f451fa06963271e9d59efb -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: 4afb79670cf27530a179f070ba3fe9aa -> 
+  custom:scripting/monoscript/fileName/ARCoreBuildProcessor.cs: d9eab941277ca6504aeebd69836dd8b0 -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeGetCameraConfigurationEventArgs.cs: 8e2a6fe308d51ad1f6b16c500dc5dfb3 -> 
+  custom:scripting/monoscript/fileName/ARCorePlaneSubsystem.cs: d2278eda10dae0fc36c44eee439649a4 -> 
+  custom:scripting/monoscript/fileName/ARCoreSettingsProvider.cs: 79c816e2cf7b68babc51565d8a334acf -> 
+  custom:scripting/monoscript/fileName/ArCameraConfig.cs: 4a875ddea718888a33e0d31342770b8d -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderConstants.cs: 1ca2b374b9eebdabc880c6eec02abfbe -> 
+  custom:scripting/monoscript/fileName/ArPrestoApi.cs: 102320236e333507f3c23510cf5fedf0 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeObject.cs: 1c83a6ff9bdb6f537b0ca273504b9cb1 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore.Editor: 02c2db43342c23e4477f9d7b07b95cb5 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 2980c1660657b98176f57e2070c5cb69 -> a6fad719a67e63b0838341df7c073961
+  custom:scripting/monoscript/fileName/StringExtensions.cs: 2a6c17241567ef50591d1f3d04d91667 -> 8e9e4f2b4fed5724ed48ae76769324bb
+  custom:scripting/monoscript/fileName/ARCoreSettings.cs: 40690c9c4969c061c980f80d35c3e6fb -> 
+  custom:scripting/monoscript/fileName/ARCoreProjectValidationRules.cs: eeb621f554a206cb3c7975cb72a27397 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ArConfig.cs: 3fcec3d7584809d01b43e09f93c614f3 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore: 905f88ea8a843a72f400d724a929b837 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARCorePermissionManager.cs: 532f7d03090ae14ae9bbbd403c359df8 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageLibraryBuildProcessor.cs: 3f33f565654fcd80e4aa61a92c2169a1 -> 
+  custom:scripting/monoscript/fileName/ArRecordingConfig.cs: dfdb22d280f26bff6727fe6f9c34f9d1 -> 
+  custom:scripting/monoscript/fileName/ArCoreImg.cs: 284f8bc57305622727946cdceadb2cef -> 
+  custom:scripting/monoscript/fileName/ARCoreSessionSubsystem.cs: 0499cfac149f3ba6a8678a379c5077a0 -> 
+  custom:scripting/monoscript/fileName/ARCoreOcclusionSubsystem.cs: 2a111039ddadb09f587c28ae3f37fc2b -> 
+  custom:scripting/monoscript/fileName/ARCoreXRPointCloudSubsystem.cs: a817e9a702204b3fa3e30b3243847693 -> 
+  custom:scripting/monoscript/fileName/Gradle.cs: f2ad869b521aeebb9f3c8c6665622b87 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ArPlaybackStatus.cs: f77b11c84a00703de9d452d424518caa -> 
+  custom:scripting/monoscript/fileName/ARCorePackageMetadata.cs: 1751e19b3bc5d304ce814e7f02fa6d47 -> 
+  custom:scripting/monoscript/fileName/ARCorePromise.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoader.cs: 2c650baba67f1e04bc070894acda684f -> 
+  custom:scripting/monoscript/fileName/ARCoreXRDepthSubsystem.deprecated.cs: 9f24fee25a0b08179d7d1cb09e2e51f5 -> 
+  custom:scripting/monoscript/fileName/ARCoreEnvironmentProbeSubsystem.cs: 1b868584605b2895b3934baf5f9f6033 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ARCoreRaycastSubsystem.cs: 4746ee3ed0cece0abfde776c634af447 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceSubsystem.cs: c496ea8c93654d4c22c4220a77e9a21d -> 
+  custom:scripting/monoscript/fileName/Java.cs: 23333680cb2e70ba8bbce74628d877c3 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 1b7d1343bf82f11ff12a2ad830cbbf88 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderSettings.cs: 98d75423d90e6a85b8a5d383cd4fad48 -> 
+  custom:scripting/monoscript/fileName/ArString.cs: a85954ac20e0c75f9dbcbebac19f7fbf -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeSetConfigurationEventArgs.cs: 234cd91ed3cdf60645705e8837e7e78d -> 
+  custom:scripting/monoscript/fileName/ARCoreCameraSubsystem.cs: 2cce9a0f290d5c7a0cb70e2a3b0af3ab -> 
+  custom:scripting/monoscript/fileName/ARCoreImageDatabase.cs: 7f7d7783973546d2000bf9aa32566b8f -> 
+  custom:scripting/monoscript/fileName/ArRecordingStatus.cs: 1e851bf64f38781ab761ff7585b2fc01 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceRegionData.cs: c3e1f4c128987c270a2af588eecf348c -> 
+  custom:scripting/monoscript/fileName/ARCoreApi.cs: b7be0b56411f0cdcb6a1075249abb802 -> 
+  custom:scripting/monoscript/fileName/ARCoreCpuImageApi.cs: 7e0d7ea0378a04357bca45463bebfe57 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11185.653570 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '910559ff8801aab3d8f08fbf1481f4e7') in 0.362254 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002362 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9e7c56138e3e119bc794ba0af840c89e') in 1.315950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2b471ed0c9a8365d8ba8dd6036731fd0') in 0.221140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fcf2edc17007ff6fd0d1d575c3f4be3d') in 0.164751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000969 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '25dc83518e76a5fd19f0c009e531c0e7') in 0.020925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8742e310874edf9141e1d9461c0ad417') in 0.031687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a547b33774e0fba89499e52edcecd8c4') in 0.069490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ed0f9cd5d5ca1df7b95c264ea5571a94') in 0.025927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 169.037876 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5095e3dd76584cceae86c188b6b1a5d4') in 0.237484 seconds
+Number of updated asset objects reloaded before import = 2
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003358 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1e1708bf47d8a214dc99181ec0bb5a7d') in 0.035557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6b6340a4bebc7211bd5aa3898845e6cc') in 0.015501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.621 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 279.739 seconds
+Domain Reload Profiling: 291378ms
+	BeginReloadAssembly (6298ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (131ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (4994ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (268ms)
+	LoadAllAssembliesAndSetupDomain (4916ms)
+		LoadAssemblies (5392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (71ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (59ms)
+	FinalizeReload (279745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (9503ms)
+			LogAssemblyErrors (7ms)
+			InitializePlatformSupportModulesInManaged (427ms)
+			SetLoadedEditorAssemblies (151ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3915ms)
+			ProcessInitializeOnLoadAttributes (4554ms)
+			ProcessInitializeOnLoadMethodAttributes (409ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (9ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (173ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2206.73 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.9 MB). Loaded Objects now: 6907.
+Memory consumption went from 211.8 MB to 209.9 MB.
+Total: 2915.685400 ms (FindLiveObjects: 502.850400 ms CreateObjectMapping: 34.151600 ms MarkObjects: 1918.906600 ms  DeleteObjects: 458.617200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Cli.cs: f278fa05dc0a28f05b8e56cf7a587c31 -> d287e08b50f2cb135aa4d7f8e01b7ef9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARCoreAnchorSubsystem.cs: 8fd89380878aa630c35614c13d4b70e4 -> 
+  custom:scripting/monoscript/fileName/ImageConversionJobs.cs: 5daa4e6aadb43a7b9057d64b0ba5d568 -> 
+  custom:scripting/monoscript/fileName/HashCodeUtil.cs: 3ac2012e517078f051611cc23e19a706 -> ee7a4f9a9650d3c7f74eced4bfed8831
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArSession.cs: dc9c4d04514fe088f4acb3a600cfa61f -> 
+  custom:scripting/monoscript/fileName/ManagedReferenceImage.cs: 3f74dd150e48d66b5dd8288f3c3e1c34 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageTrackingSubsystem.cs: 39d814b8b12f50336c43db8ce6f8ee94 -> 
+  custom:scripting/monoscript/fileName/ArCameraConfigFilter.cs: b80d5ef788f451fa06963271e9d59efb -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: 4afb79670cf27530a179f070ba3fe9aa -> 
+  custom:scripting/monoscript/fileName/ARCoreBuildProcessor.cs: d9eab941277ca6504aeebd69836dd8b0 -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeGetCameraConfigurationEventArgs.cs: 8e2a6fe308d51ad1f6b16c500dc5dfb3 -> 
+  custom:scripting/monoscript/fileName/ARCorePlaneSubsystem.cs: d2278eda10dae0fc36c44eee439649a4 -> 
+  custom:scripting/monoscript/fileName/ARCoreSettingsProvider.cs: 79c816e2cf7b68babc51565d8a334acf -> 
+  custom:scripting/monoscript/fileName/ArCameraConfig.cs: 4a875ddea718888a33e0d31342770b8d -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderConstants.cs: 1ca2b374b9eebdabc880c6eec02abfbe -> 
+  custom:scripting/monoscript/fileName/ArPrestoApi.cs: 102320236e333507f3c23510cf5fedf0 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeObject.cs: 1c83a6ff9bdb6f537b0ca273504b9cb1 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore.Editor: 02c2db43342c23e4477f9d7b07b95cb5 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 2980c1660657b98176f57e2070c5cb69 -> a6fad719a67e63b0838341df7c073961
+  custom:scripting/monoscript/fileName/StringExtensions.cs: 2a6c17241567ef50591d1f3d04d91667 -> 8e9e4f2b4fed5724ed48ae76769324bb
+  custom:scripting/monoscript/fileName/ARCoreSettings.cs: 40690c9c4969c061c980f80d35c3e6fb -> 
+  custom:scripting/monoscript/fileName/ARCoreProjectValidationRules.cs: eeb621f554a206cb3c7975cb72a27397 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ArConfig.cs: 3fcec3d7584809d01b43e09f93c614f3 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore: 905f88ea8a843a72f400d724a929b837 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARCorePermissionManager.cs: 532f7d03090ae14ae9bbbd403c359df8 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageLibraryBuildProcessor.cs: 3f33f565654fcd80e4aa61a92c2169a1 -> 
+  custom:scripting/monoscript/fileName/ArRecordingConfig.cs: dfdb22d280f26bff6727fe6f9c34f9d1 -> 
+  custom:scripting/monoscript/fileName/ArCoreImg.cs: 284f8bc57305622727946cdceadb2cef -> 
+  custom:scripting/monoscript/fileName/ARCoreSessionSubsystem.cs: 0499cfac149f3ba6a8678a379c5077a0 -> 
+  custom:scripting/monoscript/fileName/ARCoreOcclusionSubsystem.cs: 2a111039ddadb09f587c28ae3f37fc2b -> 
+  custom:scripting/monoscript/fileName/ARCoreXRPointCloudSubsystem.cs: a817e9a702204b3fa3e30b3243847693 -> 
+  custom:scripting/monoscript/fileName/Gradle.cs: f2ad869b521aeebb9f3c8c6665622b87 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ArPlaybackStatus.cs: f77b11c84a00703de9d452d424518caa -> 
+  custom:scripting/monoscript/fileName/ARCorePackageMetadata.cs: 1751e19b3bc5d304ce814e7f02fa6d47 -> 
+  custom:scripting/monoscript/fileName/ARCorePromise.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoader.cs: 2c650baba67f1e04bc070894acda684f -> 
+  custom:scripting/monoscript/fileName/ARCoreXRDepthSubsystem.deprecated.cs: 9f24fee25a0b08179d7d1cb09e2e51f5 -> 
+  custom:scripting/monoscript/fileName/ARCoreEnvironmentProbeSubsystem.cs: 1b868584605b2895b3934baf5f9f6033 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ARCoreRaycastSubsystem.cs: 4746ee3ed0cece0abfde776c634af447 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceSubsystem.cs: c496ea8c93654d4c22c4220a77e9a21d -> 
+  custom:scripting/monoscript/fileName/Java.cs: 23333680cb2e70ba8bbce74628d877c3 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 1b7d1343bf82f11ff12a2ad830cbbf88 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderSettings.cs: 98d75423d90e6a85b8a5d383cd4fad48 -> 
+  custom:scripting/monoscript/fileName/ArString.cs: a85954ac20e0c75f9dbcbebac19f7fbf -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeSetConfigurationEventArgs.cs: 234cd91ed3cdf60645705e8837e7e78d -> 
+  custom:scripting/monoscript/fileName/ARCoreCameraSubsystem.cs: 2cce9a0f290d5c7a0cb70e2a3b0af3ab -> 
+  custom:scripting/monoscript/fileName/ARCoreImageDatabase.cs: 7f7d7783973546d2000bf9aa32566b8f -> 
+  custom:scripting/monoscript/fileName/ArRecordingStatus.cs: 1e851bf64f38781ab761ff7585b2fc01 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceRegionData.cs: c3e1f4c128987c270a2af588eecf348c -> 
+  custom:scripting/monoscript/fileName/ARCoreApi.cs: b7be0b56411f0cdcb6a1075249abb802 -> 
+  custom:scripting/monoscript/fileName/ARCoreCpuImageApi.cs: 7e0d7ea0378a04357bca45463bebfe57 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1091.134090 seconds.
+  path: Assets/Settings/AR Default Plane.prefab
+  artifactKey: Guid(8ada6ee794d5e7044a864baab19f0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/AR Default Plane.prefab using Guid(8ada6ee794d5e7044a864baab19f0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '83db7e12fbced759816a43a2ed142db4') in 7.498653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 117.672780 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardRed.mat
+  artifactKey: Guid(f5025f65527b0b543bbbef60a28f5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardRed.mat using Guid(f5025f65527b0b543bbbef60a28f5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '47ed0128a48f028c9c3bb7e71a44fd9d') in 8.268719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005128 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugBlue.mat
+  artifactKey: Guid(289ca1a38ef0cfe41a1cd96feef1e8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugBlue.mat using Guid(289ca1a38ef0cfe41a1cd96feef1e8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '76dcc38c8d06fcba5b64d07b8f0baea1') in 0.463224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002590 seconds.
+  path: Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/SimImage_UnityLogo.mat
+  artifactKey: Guid(167cbb6cbf4daaa4fad9e1d7d63b7585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/SimImage_UnityLogo.mat using Guid(167cbb6cbf4daaa4fad9e1d7d63b7585) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fbb1916357a6e63c1b3ddd4fe7f323cb') in 12.953090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.081088 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardWhite.mat
+  artifactKey: Guid(0eb178726a333144f88522a378d77447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardWhite.mat using Guid(0eb178726a333144f88522a378d77447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '31e407462022727a923c3c39502ffd2a') in 7.544525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004102 seconds.
+  path: Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/Shared_Object.mat
+  artifactKey: Guid(238ef91e898807340810dc96fcd6c3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/Shared_Object.mat using Guid(238ef91e898807340810dc96fcd6c3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8f1340d953a5928a6e20f6ad6799a967') in 0.481764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001681 seconds.
+  path: Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Backyard/Models/Sandbox_8ftx8ft_BY001.fbx
+  artifactKey: Guid(5785c92c71301a847ae9380ac467b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Backyard/Models/Sandbox_8ftx8ft_BY001.fbx using Guid(5785c92c71301a847ae9380ac467b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6cbd292b37b047923f101fe05c23b897') in 2.047671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.040325 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugGreen.mat
+  artifactKey: Guid(9e48ae4daffe10f459359185f95835fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugGreen.mat using Guid(9e48ae4daffe10f459359185f95835fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '23f96e9b16cf4240be24f88dd7194b97') in 0.262559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001765 seconds.
+  path: Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/SimEnvironment_Carpet.mat
+  artifactKey: Guid(55478d86298472547ac2a4f6f048f0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/SimEnvironment_Carpet.mat using Guid(55478d86298472547ac2a4f6f048f0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '63486fadc82f9742835dfae554e8c342') in 3.975005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugRed.mat
+  artifactKey: Guid(5c263d28743de4e4f94614f477a090e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugRed.mat using Guid(5c263d28743de4e4f94614f477a090e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0aca48dbeafa09b10af162fbf096e4d8') in 0.185293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/SimEnvironment_Accent.mat
+  artifactKey: Guid(d09c25d2cc798364885865f8b2268e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Common/Materials/SimEnvironment_Accent.mat using Guid(d09c25d2cc798364885865f8b2268e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c4855f9915acf823106bba7d5dbb71c0') in 0.168533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.040184 seconds.
+  path: Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Billboard/Models/Sidewalk_Circular_BB001.fbx
+  artifactKey: Guid(f151714698b1dc349a079c6873f27f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Billboard/Models/Sidewalk_Circular_BB001.fbx using Guid(f151714698b1dc349a079c6873f27f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '79ec9f98f279a2cf03c56ffebad4ebb5') in 0.354392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardBlue.mat
+  artifactKey: Guid(019a981cc5c63114c9bd1f1b0eab082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardBlue.mat using Guid(019a981cc5c63114c9bd1f1b0eab082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '69c14bc8173086ff4f34bc8756177ac6') in 0.078457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugWhite.mat
+  artifactKey: Guid(36177d644ee75d54eb969aa638671804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/DebugWhite.mat using Guid(36177d644ee75d54eb969aa638671804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bd0e77dafef8fe9e25850f8cee131d3d') in 0.167813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardGrey.mat
+  artifactKey: Guid(26c849773f67a524da55e43ff97ccadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardGrey.mat using Guid(26c849773f67a524da55e43ff97ccadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a9526af45664bbbf97cf84e22efcca05') in 0.076453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018542 seconds.
+  path: Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardGreen.mat
+  artifactKey: Guid(b82672352bb2db94d866961f2743cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/Common/ReferenceShapes/Materials/StandardGreen.mat using Guid(b82672352bb2db94d866961f2743cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '21467a654a9437e4041ff53a1e0152a2') in 0.071680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Billboard/Models/Sidewalk_Large_BB002.fbx
+  artifactKey: Guid(64258a6148b7b334a997020f5a6190e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityXRContent/ARFoundation/SimulationEnvironments/Billboard/Models/Sidewalk_Large_BB002.fbx using Guid(64258a6148b7b334a997020f5a6190e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '711c4e136daca1feb95b4c21e84202d8') in 0.207448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 252.553333 seconds.
+  path: Assets/AR Default Plane.prefab
+  artifactKey: Guid(4db0bdb2926a50f4bb311aad28c2eb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR Default Plane.prefab using Guid(4db0bdb2926a50f4bb311aad28c2eb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd9359f73d5fe539966842383fc371ef3') in 3.920280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 104.993799 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/DebugFace.mat
+  artifactKey: Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/DebugFace.mat using Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5073aa39de8ddc41ff9beae29a405e2c') in 1.110200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001610 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat
+  artifactKey: Guid(7f1d579c79ac0442e8d4a7f213a675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat using Guid(7f1d579c79ac0442e8d4a7f213a675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b386a05efc487e118980eb04e5f819a0') in 1.131349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationBodyMaterial.mat
+  artifactKey: Guid(a4487a0c19d31684c91760d7b608f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationBodyMaterial.mat using Guid(a4487a0c19d31684c91760d7b608f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '247ea02073e814dfc86a87376f8d66a6') in 0.493321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/DebugPlane.mat
+  artifactKey: Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/DebugPlane.mat using Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd8bf73b70b50a383dc549a73741dda87') in 0.168117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationSuitMaterial.mat
+  artifactKey: Guid(ff97e31c61928db42a4a403b8d642fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationSuitMaterial.mat using Guid(ff97e31c61928db42a4a403b8d642fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8438ea86f704470a4d196a38dabb8a20') in 0.215969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/YAxis.mat
+  artifactKey: Guid(743dbe898e46f4e27b435f79a524f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/YAxis.mat using Guid(743dbe898e46f4e27b435f79a524f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'afc7a85c9cbd52bf7e7c67466b493226') in 0.187062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/XAxis.mat
+  artifactKey: Guid(a23d1b0dc553640f682d502af95e7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/XAxis.mat using Guid(a23d1b0dc553640f682d502af95e7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1ef602b65aee935ef78f48f9891332bc') in 0.115397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationLitGray.mat
+  artifactKey: Guid(950042044eb8b45cfb957653439b0be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationLitGray.mat using Guid(950042044eb8b45cfb957653439b0be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6c693ff4314f16a64ef4c29b18bdd078') in 0.193365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationPlaneMaterial.mat
+  artifactKey: Guid(b701fb6055e5bf44b84cbe041121eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationPlaneMaterial.mat using Guid(b701fb6055e5bf44b84cbe041121eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5237711739f86d29cac944d43b7b6dce') in 3.004312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/FeaturePointMat.mat
+  artifactKey: Guid(1ff7e79fd64f7469a96dff1e97f179a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/FeaturePointMat.mat using Guid(1ff7e79fd64f7469a96dff1e97f179a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f603f83fc0f43443acec7edfa37cbec9') in 0.459306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/ZAxis.mat
+  artifactKey: Guid(2a5d17639da1f4bdd83f4cd9cdbd5640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/ZAxis.mat using Guid(2a5d17639da1f4bdd83f4cd9cdbd5640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e60ab5e01eed94148061bde4f89e477e') in 0.124855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/Origin.mat
+  artifactKey: Guid(8d5a881adabf5d44cad2907c58a51b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/Origin.mat using Guid(8d5a881adabf5d44cad2907c58a51b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '72911d7d28307f39fcfdf0012daca758') in 0.124223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/UnlitBlack.mat
+  artifactKey: Guid(1d1fab4015cac46c08cbc1fe0a1eb0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/UnlitBlack.mat using Guid(1d1fab4015cac46c08cbc1fe0a1eb0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7bedf06e3972f489d380a8ba37fa1b8f') in 0.178859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 164.687832 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(3f54a742fc4c99f4891ce8c2d95caae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(3f54a742fc4c99f4891ce8c2d95caae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b0588f483771dcb5cde42dda74b3aacd') in 8.983382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 360.816778 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '87dde70fb910d8a0ac6e9b3ba7071e28') in 7.027012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001347 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c7f53a78f6467e4e6a3a990163390abc') in 1.819982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph
+  artifactKey: Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph using Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd5f1e025a17cdaae916d091e6839aa71') in 2.461253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '50408b4fb02ffaedd934027e62cfda4c') in 1.709862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7204589edff548134de7891a14db125d') in 0.244157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f114a5a2b3863449a5390ece179d6582') in 0.269896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2595fd1593806fb5692817baf855fe2a') in 0.137122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fc9ff38d3320c160eb89e64bae42d839') in 16.772941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002105 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '955fc7de293687db4e9909b048fc5c48') in 1.331482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Fonts/Cascadia.ttf
+  artifactKey: Guid(9229ae5dbc38f488d921156ff75869e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Fonts/Cascadia.ttf using Guid(9229ae5dbc38f488d921156ff75869e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '72fdf7a06423592c92616d4564cd4113') in 0.649037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1da0f1ef144e59397a0d5417bb9018dc') in 0.425499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'af65bdfba4ae19a787d85b06141e5aa9') in 0.282838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.001941 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph
+  artifactKey: Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph using Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a98f79c1b21ea1289f99dadb02009746') in 0.986109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ec8b962a3cdce8218833fe1eaf6bedca') in 0.095408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph
+  artifactKey: Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph using Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8884e43b7af5935263e56dbf343e8894') in 6.466639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4d40930e8fd454af3debf36c4e1f0393') in 0.291711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c1567e43a1a884de90965028c7c72eac') in 0.186660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'be23ebdd24061e57ba077a0bfb9acabf') in 0.262325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c7f7da26eed6117a67eb02db532cb1ac') in 0.255343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c5e5b3c3572a3585d60d6f5230507a0f') in 0.572854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 14.039 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 274.279 seconds
+Domain Reload Profiling: 288362ms
+	BeginReloadAssembly (3510ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (485ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (1595ms)
+	RebuildCommonClasses (141ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (10220ms)
+		LoadAssemblies (10853ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (50ms)
+	FinalizeReload (274302ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16653ms)
+			LogAssemblyErrors (23ms)
+			InitializePlatformSupportModulesInManaged (2749ms)
+			SetLoadedEditorAssemblies (118ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5271ms)
+			ProcessInitializeOnLoadAttributes (7335ms)
+			ProcessInitializeOnLoadMethodAttributes (1049ms)
+			AfterProcessingInitializeOnLoad (76ms)
+			EditorAssembliesLoaded (12ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (315ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6254.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.5 MB). Loaded Objects now: 7008.
+Memory consumption went from 218.8 MB to 217.3 MB.
+Total: 8143.508600 ms (FindLiveObjects: 407.372500 ms CreateObjectMapping: 7.114100 ms MarkObjects: 7630.937000 ms  DeleteObjects: 91.749500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Cli.cs: f278fa05dc0a28f05b8e56cf7a587c31 -> d287e08b50f2cb135aa4d7f8e01b7ef9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARCoreAnchorSubsystem.cs: 8fd89380878aa630c35614c13d4b70e4 -> 
+  custom:scripting/monoscript/fileName/ImageConversionJobs.cs: 5daa4e6aadb43a7b9057d64b0ba5d568 -> 
+  custom:scripting/monoscript/fileName/HashCodeUtil.cs: 3ac2012e517078f051611cc23e19a706 -> ee7a4f9a9650d3c7f74eced4bfed8831
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArSession.cs: dc9c4d04514fe088f4acb3a600cfa61f -> 
+  custom:scripting/monoscript/fileName/ManagedReferenceImage.cs: 3f74dd150e48d66b5dd8288f3c3e1c34 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageTrackingSubsystem.cs: 39d814b8b12f50336c43db8ce6f8ee94 -> 
+  custom:scripting/monoscript/fileName/ArCameraConfigFilter.cs: b80d5ef788f451fa06963271e9d59efb -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: 4afb79670cf27530a179f070ba3fe9aa -> 
+  custom:scripting/monoscript/fileName/ARCoreBuildProcessor.cs: d9eab941277ca6504aeebd69836dd8b0 -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeGetCameraConfigurationEventArgs.cs: 8e2a6fe308d51ad1f6b16c500dc5dfb3 -> 
+  custom:scripting/monoscript/fileName/ARCorePlaneSubsystem.cs: d2278eda10dae0fc36c44eee439649a4 -> 
+  custom:scripting/monoscript/fileName/ARCoreSettingsProvider.cs: 79c816e2cf7b68babc51565d8a334acf -> 
+  custom:scripting/monoscript/fileName/ArCameraConfig.cs: 4a875ddea718888a33e0d31342770b8d -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderConstants.cs: 1ca2b374b9eebdabc880c6eec02abfbe -> 
+  custom:scripting/monoscript/fileName/ArPrestoApi.cs: 102320236e333507f3c23510cf5fedf0 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeObject.cs: 1c83a6ff9bdb6f537b0ca273504b9cb1 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore.Editor: 02c2db43342c23e4477f9d7b07b95cb5 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 2980c1660657b98176f57e2070c5cb69 -> a6fad719a67e63b0838341df7c073961
+  custom:scripting/monoscript/fileName/StringExtensions.cs: 2a6c17241567ef50591d1f3d04d91667 -> 8e9e4f2b4fed5724ed48ae76769324bb
+  custom:scripting/monoscript/fileName/ARCoreSettings.cs: 40690c9c4969c061c980f80d35c3e6fb -> 
+  custom:scripting/monoscript/fileName/ARCoreProjectValidationRules.cs: eeb621f554a206cb3c7975cb72a27397 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ArConfig.cs: 3fcec3d7584809d01b43e09f93c614f3 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore: 905f88ea8a843a72f400d724a929b837 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARCorePermissionManager.cs: 532f7d03090ae14ae9bbbd403c359df8 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageLibraryBuildProcessor.cs: 3f33f565654fcd80e4aa61a92c2169a1 -> 
+  custom:scripting/monoscript/fileName/ArRecordingConfig.cs: dfdb22d280f26bff6727fe6f9c34f9d1 -> 
+  custom:scripting/monoscript/fileName/ArCoreImg.cs: 284f8bc57305622727946cdceadb2cef -> 
+  custom:scripting/monoscript/fileName/ARCoreSessionSubsystem.cs: 0499cfac149f3ba6a8678a379c5077a0 -> 
+  custom:scripting/monoscript/fileName/ARCoreOcclusionSubsystem.cs: 2a111039ddadb09f587c28ae3f37fc2b -> 
+  custom:scripting/monoscript/fileName/ARCoreXRPointCloudSubsystem.cs: a817e9a702204b3fa3e30b3243847693 -> 
+  custom:scripting/monoscript/fileName/Gradle.cs: f2ad869b521aeebb9f3c8c6665622b87 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ArPlaybackStatus.cs: f77b11c84a00703de9d452d424518caa -> 
+  custom:scripting/monoscript/fileName/ARCorePackageMetadata.cs: 1751e19b3bc5d304ce814e7f02fa6d47 -> 
+  custom:scripting/monoscript/fileName/ARCorePromise.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoader.cs: 2c650baba67f1e04bc070894acda684f -> 
+  custom:scripting/monoscript/fileName/ARCoreXRDepthSubsystem.deprecated.cs: 9f24fee25a0b08179d7d1cb09e2e51f5 -> 
+  custom:scripting/monoscript/fileName/ARCoreEnvironmentProbeSubsystem.cs: 1b868584605b2895b3934baf5f9f6033 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ARCoreRaycastSubsystem.cs: 4746ee3ed0cece0abfde776c634af447 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceSubsystem.cs: c496ea8c93654d4c22c4220a77e9a21d -> 
+  custom:scripting/monoscript/fileName/Java.cs: 23333680cb2e70ba8bbce74628d877c3 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 1b7d1343bf82f11ff12a2ad830cbbf88 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderSettings.cs: 98d75423d90e6a85b8a5d383cd4fad48 -> 
+  custom:scripting/monoscript/fileName/ArString.cs: a85954ac20e0c75f9dbcbebac19f7fbf -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeSetConfigurationEventArgs.cs: 234cd91ed3cdf60645705e8837e7e78d -> 
+  custom:scripting/monoscript/fileName/ARCoreCameraSubsystem.cs: 2cce9a0f290d5c7a0cb70e2a3b0af3ab -> 
+  custom:scripting/monoscript/fileName/ARCoreImageDatabase.cs: 7f7d7783973546d2000bf9aa32566b8f -> 
+  custom:scripting/monoscript/fileName/ArRecordingStatus.cs: 1e851bf64f38781ab761ff7585b2fc01 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceRegionData.cs: c3e1f4c128987c270a2af588eecf348c -> 
+  custom:scripting/monoscript/fileName/ARCoreApi.cs: b7be0b56411f0cdcb6a1075249abb802 -> 
+  custom:scripting/monoscript/fileName/ARCoreCpuImageApi.cs: 7e0d7ea0378a04357bca45463bebfe57 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.582 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 320.469 seconds
+Domain Reload Profiling: 331156ms
+	BeginReloadAssembly (2479ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (163ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1126ms)
+	RebuildCommonClasses (157ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (196ms)
+	LoadAllAssembliesAndSetupDomain (7707ms)
+		LoadAssemblies (8181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (56ms)
+	FinalizeReload (320557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (15974ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (433ms)
+			SetLoadedEditorAssemblies (236ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4315ms)
+			ProcessInitializeOnLoadAttributes (7522ms)
+			ProcessInitializeOnLoadMethodAttributes (3204ms)
+			AfterProcessingInitializeOnLoad (240ms)
+			EditorAssembliesLoaded (21ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (390ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1537.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6271 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.7 MB). Loaded Objects now: 7014.
+Memory consumption went from 217.9 MB to 216.3 MB.
+Total: 1822.573800 ms (FindLiveObjects: 108.363600 ms CreateObjectMapping: 5.724800 ms MarkObjects: 1237.151700 ms  DeleteObjects: 470.739400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Cli.cs: f278fa05dc0a28f05b8e56cf7a587c31 -> d287e08b50f2cb135aa4d7f8e01b7ef9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARCoreAnchorSubsystem.cs: 8fd89380878aa630c35614c13d4b70e4 -> 
+  custom:scripting/monoscript/fileName/ImageConversionJobs.cs: 5daa4e6aadb43a7b9057d64b0ba5d568 -> 
+  custom:scripting/monoscript/fileName/HashCodeUtil.cs: 3ac2012e517078f051611cc23e19a706 -> ee7a4f9a9650d3c7f74eced4bfed8831
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArSession.cs: dc9c4d04514fe088f4acb3a600cfa61f -> 
+  custom:scripting/monoscript/fileName/ManagedReferenceImage.cs: 3f74dd150e48d66b5dd8288f3c3e1c34 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageTrackingSubsystem.cs: 39d814b8b12f50336c43db8ce6f8ee94 -> 
+  custom:scripting/monoscript/fileName/ArCameraConfigFilter.cs: b80d5ef788f451fa06963271e9d59efb -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: 4afb79670cf27530a179f070ba3fe9aa -> 
+  custom:scripting/monoscript/fileName/ARCoreBuildProcessor.cs: d9eab941277ca6504aeebd69836dd8b0 -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeGetCameraConfigurationEventArgs.cs: 8e2a6fe308d51ad1f6b16c500dc5dfb3 -> 
+  custom:scripting/monoscript/fileName/ARCorePlaneSubsystem.cs: d2278eda10dae0fc36c44eee439649a4 -> 
+  custom:scripting/monoscript/fileName/ARCoreSettingsProvider.cs: 79c816e2cf7b68babc51565d8a334acf -> 
+  custom:scripting/monoscript/fileName/ArCameraConfig.cs: 4a875ddea718888a33e0d31342770b8d -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderConstants.cs: 1ca2b374b9eebdabc880c6eec02abfbe -> 
+  custom:scripting/monoscript/fileName/ArPrestoApi.cs: 102320236e333507f3c23510cf5fedf0 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeObject.cs: 1c83a6ff9bdb6f537b0ca273504b9cb1 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore.Editor: 02c2db43342c23e4477f9d7b07b95cb5 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 2980c1660657b98176f57e2070c5cb69 -> a6fad719a67e63b0838341df7c073961
+  custom:scripting/monoscript/fileName/StringExtensions.cs: 2a6c17241567ef50591d1f3d04d91667 -> 8e9e4f2b4fed5724ed48ae76769324bb
+  custom:scripting/monoscript/fileName/ARCoreSettings.cs: 40690c9c4969c061c980f80d35c3e6fb -> 
+  custom:scripting/monoscript/fileName/ARCoreProjectValidationRules.cs: eeb621f554a206cb3c7975cb72a27397 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ArConfig.cs: 3fcec3d7584809d01b43e09f93c614f3 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore: 905f88ea8a843a72f400d724a929b837 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARCorePermissionManager.cs: 532f7d03090ae14ae9bbbd403c359df8 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageLibraryBuildProcessor.cs: 3f33f565654fcd80e4aa61a92c2169a1 -> 
+  custom:scripting/monoscript/fileName/ArRecordingConfig.cs: dfdb22d280f26bff6727fe6f9c34f9d1 -> 
+  custom:scripting/monoscript/fileName/ArCoreImg.cs: 284f8bc57305622727946cdceadb2cef -> 
+  custom:scripting/monoscript/fileName/ARCoreSessionSubsystem.cs: 0499cfac149f3ba6a8678a379c5077a0 -> 
+  custom:scripting/monoscript/fileName/ARCoreOcclusionSubsystem.cs: 2a111039ddadb09f587c28ae3f37fc2b -> 
+  custom:scripting/monoscript/fileName/ARCoreXRPointCloudSubsystem.cs: a817e9a702204b3fa3e30b3243847693 -> 
+  custom:scripting/monoscript/fileName/Gradle.cs: f2ad869b521aeebb9f3c8c6665622b87 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ArPlaybackStatus.cs: f77b11c84a00703de9d452d424518caa -> 
+  custom:scripting/monoscript/fileName/ARCorePackageMetadata.cs: 1751e19b3bc5d304ce814e7f02fa6d47 -> 
+  custom:scripting/monoscript/fileName/ARCorePromise.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoader.cs: 2c650baba67f1e04bc070894acda684f -> 
+  custom:scripting/monoscript/fileName/ARCoreXRDepthSubsystem.deprecated.cs: 9f24fee25a0b08179d7d1cb09e2e51f5 -> 
+  custom:scripting/monoscript/fileName/ARCoreEnvironmentProbeSubsystem.cs: 1b868584605b2895b3934baf5f9f6033 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ARCoreRaycastSubsystem.cs: 4746ee3ed0cece0abfde776c634af447 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceSubsystem.cs: c496ea8c93654d4c22c4220a77e9a21d -> 
+  custom:scripting/monoscript/fileName/Java.cs: 23333680cb2e70ba8bbce74628d877c3 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 1b7d1343bf82f11ff12a2ad830cbbf88 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderSettings.cs: 98d75423d90e6a85b8a5d383cd4fad48 -> 
+  custom:scripting/monoscript/fileName/ArString.cs: a85954ac20e0c75f9dbcbebac19f7fbf -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeSetConfigurationEventArgs.cs: 234cd91ed3cdf60645705e8837e7e78d -> 
+  custom:scripting/monoscript/fileName/ARCoreCameraSubsystem.cs: 2cce9a0f290d5c7a0cb70e2a3b0af3ab -> 
+  custom:scripting/monoscript/fileName/ARCoreImageDatabase.cs: 7f7d7783973546d2000bf9aa32566b8f -> 
+  custom:scripting/monoscript/fileName/ArRecordingStatus.cs: 1e851bf64f38781ab761ff7585b2fc01 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceRegionData.cs: c3e1f4c128987c270a2af588eecf348c -> 
+  custom:scripting/monoscript/fileName/ARCoreApi.cs: b7be0b56411f0cdcb6a1075249abb802 -> 
+  custom:scripting/monoscript/fileName/ARCoreCpuImageApi.cs: 7e0d7ea0378a04357bca45463bebfe57 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.428 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 27.313 seconds
+Domain Reload Profiling: 34754ms
+	BeginReloadAssembly (2149ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (83ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (919ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (5095ms)
+		LoadAssemblies (5625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (107ms)
+	FinalizeReload (27315ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2218ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (121ms)
+			SetLoadedEditorAssemblies (22ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (377ms)
+			ProcessInitializeOnLoadAttributes (1412ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (88ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 252.51 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6271 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.6 MB). Loaded Objects now: 7020.
+Memory consumption went from 217.8 MB to 216.2 MB.
+Total: 25.916200 ms (FindLiveObjects: 3.392500 ms CreateObjectMapping: 1.325400 ms MarkObjects: 18.025000 ms  DeleteObjects: 3.170900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Cli.cs: f278fa05dc0a28f05b8e56cf7a587c31 -> d287e08b50f2cb135aa4d7f8e01b7ef9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARCoreAnchorSubsystem.cs: 8fd89380878aa630c35614c13d4b70e4 -> 
+  custom:scripting/monoscript/fileName/ImageConversionJobs.cs: 5daa4e6aadb43a7b9057d64b0ba5d568 -> 
+  custom:scripting/monoscript/fileName/HashCodeUtil.cs: 3ac2012e517078f051611cc23e19a706 -> ee7a4f9a9650d3c7f74eced4bfed8831
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArSession.cs: dc9c4d04514fe088f4acb3a600cfa61f -> 
+  custom:scripting/monoscript/fileName/ManagedReferenceImage.cs: 3f74dd150e48d66b5dd8288f3c3e1c34 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageTrackingSubsystem.cs: 39d814b8b12f50336c43db8ce6f8ee94 -> 
+  custom:scripting/monoscript/fileName/ArCameraConfigFilter.cs: b80d5ef788f451fa06963271e9d59efb -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: 4afb79670cf27530a179f070ba3fe9aa -> 
+  custom:scripting/monoscript/fileName/ARCoreBuildProcessor.cs: d9eab941277ca6504aeebd69836dd8b0 -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeGetCameraConfigurationEventArgs.cs: 8e2a6fe308d51ad1f6b16c500dc5dfb3 -> 
+  custom:scripting/monoscript/fileName/ARCorePlaneSubsystem.cs: d2278eda10dae0fc36c44eee439649a4 -> 
+  custom:scripting/monoscript/fileName/ARCoreSettingsProvider.cs: 79c816e2cf7b68babc51565d8a334acf -> 
+  custom:scripting/monoscript/fileName/ArCameraConfig.cs: 4a875ddea718888a33e0d31342770b8d -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderConstants.cs: 1ca2b374b9eebdabc880c6eec02abfbe -> 
+  custom:scripting/monoscript/fileName/ArPrestoApi.cs: 102320236e333507f3c23510cf5fedf0 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeObject.cs: 1c83a6ff9bdb6f537b0ca273504b9cb1 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore.Editor: 02c2db43342c23e4477f9d7b07b95cb5 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 2980c1660657b98176f57e2070c5cb69 -> a6fad719a67e63b0838341df7c073961
+  custom:scripting/monoscript/fileName/StringExtensions.cs: 2a6c17241567ef50591d1f3d04d91667 -> 8e9e4f2b4fed5724ed48ae76769324bb
+  custom:scripting/monoscript/fileName/ARCoreSettings.cs: 40690c9c4969c061c980f80d35c3e6fb -> 
+  custom:scripting/monoscript/fileName/ARCoreProjectValidationRules.cs: eeb621f554a206cb3c7975cb72a27397 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ArConfig.cs: 3fcec3d7584809d01b43e09f93c614f3 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore: 905f88ea8a843a72f400d724a929b837 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARCorePermissionManager.cs: 532f7d03090ae14ae9bbbd403c359df8 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageLibraryBuildProcessor.cs: 3f33f565654fcd80e4aa61a92c2169a1 -> 
+  custom:scripting/monoscript/fileName/ArRecordingConfig.cs: dfdb22d280f26bff6727fe6f9c34f9d1 -> 
+  custom:scripting/monoscript/fileName/ArCoreImg.cs: 284f8bc57305622727946cdceadb2cef -> 
+  custom:scripting/monoscript/fileName/ARCoreSessionSubsystem.cs: 0499cfac149f3ba6a8678a379c5077a0 -> 
+  custom:scripting/monoscript/fileName/ARCoreOcclusionSubsystem.cs: 2a111039ddadb09f587c28ae3f37fc2b -> 
+  custom:scripting/monoscript/fileName/ARCoreXRPointCloudSubsystem.cs: a817e9a702204b3fa3e30b3243847693 -> 
+  custom:scripting/monoscript/fileName/Gradle.cs: f2ad869b521aeebb9f3c8c6665622b87 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ArPlaybackStatus.cs: f77b11c84a00703de9d452d424518caa -> 
+  custom:scripting/monoscript/fileName/ARCorePackageMetadata.cs: 1751e19b3bc5d304ce814e7f02fa6d47 -> 
+  custom:scripting/monoscript/fileName/ARCorePromise.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoader.cs: 2c650baba67f1e04bc070894acda684f -> 
+  custom:scripting/monoscript/fileName/ARCoreXRDepthSubsystem.deprecated.cs: 9f24fee25a0b08179d7d1cb09e2e51f5 -> 
+  custom:scripting/monoscript/fileName/ARCoreEnvironmentProbeSubsystem.cs: 1b868584605b2895b3934baf5f9f6033 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ARCoreRaycastSubsystem.cs: 4746ee3ed0cece0abfde776c634af447 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceSubsystem.cs: c496ea8c93654d4c22c4220a77e9a21d -> 
+  custom:scripting/monoscript/fileName/Java.cs: 23333680cb2e70ba8bbce74628d877c3 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 1b7d1343bf82f11ff12a2ad830cbbf88 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderSettings.cs: 98d75423d90e6a85b8a5d383cd4fad48 -> 
+  custom:scripting/monoscript/fileName/ArString.cs: a85954ac20e0c75f9dbcbebac19f7fbf -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeSetConfigurationEventArgs.cs: 234cd91ed3cdf60645705e8837e7e78d -> 
+  custom:scripting/monoscript/fileName/ARCoreCameraSubsystem.cs: 2cce9a0f290d5c7a0cb70e2a3b0af3ab -> 
+  custom:scripting/monoscript/fileName/ARCoreImageDatabase.cs: 7f7d7783973546d2000bf9aa32566b8f -> 
+  custom:scripting/monoscript/fileName/ArRecordingStatus.cs: 1e851bf64f38781ab761ff7585b2fc01 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceRegionData.cs: c3e1f4c128987c270a2af588eecf348c -> 
+  custom:scripting/monoscript/fileName/ARCoreApi.cs: b7be0b56411f0cdcb6a1075249abb802 -> 
+  custom:scripting/monoscript/fileName/ARCoreCpuImageApi.cs: 7e0d7ea0378a04357bca45463bebfe57 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7012.063634 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/package.json
+  artifactKey: Guid(d16ab7e2b2998ad4c9729d86bb9aa666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/package.json using Guid(d16ab7e2b2998ad4c9729d86bb9aa666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0609bd8ff682e7876dd2eb4884178af6') in 3.860769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004724 seconds.
+  path: Packages/com.unity.xr.management/package.json
+  artifactKey: Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/package.json using Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5d1e91572829f734b161675f5a183457') in 0.155620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 58.101410 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bb5351fe152d1e16f916cb9677403a24') in 4.571921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph
+  artifactKey: Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph using Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '984707d347e96ec1c9ea8a59ef5ec1b9') in 2.752991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat
+  artifactKey: Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat using Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '60d9cbe6c04660f48ad37c4bcb182a36') in 0.192021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Prefabs/Handles.fbx
+  artifactKey: Guid(405ff1b6d34178a4a987fc2f6908a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Prefabs/Handles.fbx using Guid(405ff1b6d34178a4a987fc2f6908a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'db9f9a8454bbfee6b4645c983b20b766') in 1.319053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '19ff598fde251a7956f3446703c01c64') in 0.097879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.005 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 115.392 seconds
+Domain Reload Profiling: 124504ms
+	BeginReloadAssembly (2464ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (349ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1007ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (6290ms)
+		LoadAssemblies (6717ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (50ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (51ms)
+	FinalizeReload (115449ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (10678ms)
+			LogAssemblyErrors (2ms)
+			InitializePlatformSupportModulesInManaged (576ms)
+			SetLoadedEditorAssemblies (95ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4535ms)
+			ProcessInitializeOnLoadAttributes (4859ms)
+			ProcessInitializeOnLoadMethodAttributes (552ms)
+			AfterProcessingInitializeOnLoad (50ms)
+			EditorAssembliesLoaded (7ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (195ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4161.64 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.7 MB). Loaded Objects now: 7063.
+Memory consumption went from 218.5 MB to 216.8 MB.
+Total: 400.907200 ms (FindLiveObjects: 19.443100 ms CreateObjectMapping: 1.937200 ms MarkObjects: 369.834100 ms  DeleteObjects: 9.681600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Cli.cs: f278fa05dc0a28f05b8e56cf7a587c31 -> d287e08b50f2cb135aa4d7f8e01b7ef9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARCoreAnchorSubsystem.cs: 8fd89380878aa630c35614c13d4b70e4 -> 
+  custom:scripting/monoscript/fileName/ImageConversionJobs.cs: 5daa4e6aadb43a7b9057d64b0ba5d568 -> 
+  custom:scripting/monoscript/fileName/HashCodeUtil.cs: 3ac2012e517078f051611cc23e19a706 -> ee7a4f9a9650d3c7f74eced4bfed8831
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArSession.cs: dc9c4d04514fe088f4acb3a600cfa61f -> 
+  custom:scripting/monoscript/fileName/ManagedReferenceImage.cs: 3f74dd150e48d66b5dd8288f3c3e1c34 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageTrackingSubsystem.cs: 39d814b8b12f50336c43db8ce6f8ee94 -> 
+  custom:scripting/monoscript/fileName/ArCameraConfigFilter.cs: b80d5ef788f451fa06963271e9d59efb -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: 4afb79670cf27530a179f070ba3fe9aa -> 
+  custom:scripting/monoscript/fileName/ARCoreBuildProcessor.cs: d9eab941277ca6504aeebd69836dd8b0 -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeGetCameraConfigurationEventArgs.cs: 8e2a6fe308d51ad1f6b16c500dc5dfb3 -> 
+  custom:scripting/monoscript/fileName/ARCorePlaneSubsystem.cs: d2278eda10dae0fc36c44eee439649a4 -> 
+  custom:scripting/monoscript/fileName/ARCoreSettingsProvider.cs: 79c816e2cf7b68babc51565d8a334acf -> 
+  custom:scripting/monoscript/fileName/ArCameraConfig.cs: 4a875ddea718888a33e0d31342770b8d -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderConstants.cs: 1ca2b374b9eebdabc880c6eec02abfbe -> 
+  custom:scripting/monoscript/fileName/ArPrestoApi.cs: 102320236e333507f3c23510cf5fedf0 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeObject.cs: 1c83a6ff9bdb6f537b0ca273504b9cb1 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore.Editor: 02c2db43342c23e4477f9d7b07b95cb5 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 2980c1660657b98176f57e2070c5cb69 -> a6fad719a67e63b0838341df7c073961
+  custom:scripting/monoscript/fileName/StringExtensions.cs: 2a6c17241567ef50591d1f3d04d91667 -> 8e9e4f2b4fed5724ed48ae76769324bb
+  custom:scripting/monoscript/fileName/ARCoreSettings.cs: 40690c9c4969c061c980f80d35c3e6fb -> 
+  custom:scripting/monoscript/fileName/ARCoreProjectValidationRules.cs: eeb621f554a206cb3c7975cb72a27397 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ArConfig.cs: 3fcec3d7584809d01b43e09f93c614f3 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARCore: 905f88ea8a843a72f400d724a929b837 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARCorePermissionManager.cs: 532f7d03090ae14ae9bbbd403c359df8 -> 
+  custom:scripting/monoscript/fileName/ARCoreImageLibraryBuildProcessor.cs: 3f33f565654fcd80e4aa61a92c2169a1 -> 
+  custom:scripting/monoscript/fileName/ArRecordingConfig.cs: dfdb22d280f26bff6727fe6f9c34f9d1 -> 
+  custom:scripting/monoscript/fileName/ArCoreImg.cs: 284f8bc57305622727946cdceadb2cef -> 
+  custom:scripting/monoscript/fileName/ARCoreSessionSubsystem.cs: 0499cfac149f3ba6a8678a379c5077a0 -> 
+  custom:scripting/monoscript/fileName/ARCoreOcclusionSubsystem.cs: 2a111039ddadb09f587c28ae3f37fc2b -> 
+  custom:scripting/monoscript/fileName/ARCoreXRPointCloudSubsystem.cs: a817e9a702204b3fa3e30b3243847693 -> 
+  custom:scripting/monoscript/fileName/Gradle.cs: f2ad869b521aeebb9f3c8c6665622b87 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ArPlaybackStatus.cs: f77b11c84a00703de9d452d424518caa -> 
+  custom:scripting/monoscript/fileName/ARCorePackageMetadata.cs: 1751e19b3bc5d304ce814e7f02fa6d47 -> 
+  custom:scripting/monoscript/fileName/ARCorePromise.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoader.cs: 2c650baba67f1e04bc070894acda684f -> 
+  custom:scripting/monoscript/fileName/ARCoreXRDepthSubsystem.deprecated.cs: 9f24fee25a0b08179d7d1cb09e2e51f5 -> 
+  custom:scripting/monoscript/fileName/ARCoreEnvironmentProbeSubsystem.cs: 1b868584605b2895b3934baf5f9f6033 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ARCoreRaycastSubsystem.cs: 4746ee3ed0cece0abfde776c634af447 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceSubsystem.cs: c496ea8c93654d4c22c4220a77e9a21d -> 
+  custom:scripting/monoscript/fileName/Java.cs: 23333680cb2e70ba8bbce74628d877c3 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 1b7d1343bf82f11ff12a2ad830cbbf88 -> 
+  custom:scripting/monoscript/fileName/ARCoreLoaderSettings.cs: 98d75423d90e6a85b8a5d383cd4fad48 -> 
+  custom:scripting/monoscript/fileName/ArString.cs: a85954ac20e0c75f9dbcbebac19f7fbf -> 
+  custom:scripting/monoscript/fileName/ARCoreBeforeSetConfigurationEventArgs.cs: 234cd91ed3cdf60645705e8837e7e78d -> 
+  custom:scripting/monoscript/fileName/ARCoreCameraSubsystem.cs: 2cce9a0f290d5c7a0cb70e2a3b0af3ab -> 
+  custom:scripting/monoscript/fileName/ARCoreImageDatabase.cs: 7f7d7783973546d2000bf9aa32566b8f -> 
+  custom:scripting/monoscript/fileName/ArRecordingStatus.cs: 1e851bf64f38781ab761ff7585b2fc01 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ARCoreFaceRegionData.cs: c3e1f4c128987c270a2af588eecf348c -> 
+  custom:scripting/monoscript/fileName/ARCoreApi.cs: b7be0b56411f0cdcb6a1075249abb802 -> 
+  custom:scripting/monoscript/fileName/ARCoreCpuImageApi.cs: 7e0d7ea0378a04357bca45463bebfe57 -> 
